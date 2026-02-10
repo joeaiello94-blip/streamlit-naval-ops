@@ -230,7 +230,7 @@ with tab2:
 
         with st.spinner("Collecting data..."):
             collector = NavalDataCollector(inputs)
-            data = collector.collect_all_data(progress_callback=progress_cb)
+            data = collector.collect_all_data()
 
         st.success(
             f"Collected {len(data.get('analyzed_points', []))} ocean points (land filtered out: {data.get('stats', {}).get('land_points', 0)})"
