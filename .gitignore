@@ -8,3 +8,4 @@ __pycache__/
 naval_ops_inputs.json
 naval_ops_data.json
 naval_ops_analysis.json
+.DS_Store
