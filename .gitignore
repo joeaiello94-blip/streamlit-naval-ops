@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+.venv/
+naval_ops_inputs.json
+naval_ops_data.json
+naval_ops_analysis.json

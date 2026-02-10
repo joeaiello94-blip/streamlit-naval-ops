@@ -1,0 +1,4 @@
+streamlit>=1.31
+streamlit-folium>=0.18
+folium>=0.15
+requests>=2.31
